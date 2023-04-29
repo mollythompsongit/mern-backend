@@ -25,7 +25,7 @@ app.use((req, res, next) => {
   });
 
 // route handler
-app.get('/', (req, res) => {
+app.get('https://mern-backend-woad.vercel.app/', (req, res) => {
     res.json({ msg: "Welcome to the app" })
 })
 app.use('https://mern-backend-woad.vercel.app/api/workouts', workoutRoutes)
